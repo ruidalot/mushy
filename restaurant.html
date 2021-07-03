@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="styles/common.css">
+        <script src="scripts/common.js"></script>
+        <link rel="icon" href="images/favicon.png" type="image/png"/>
+        <title>mushroom</title>
+    </head>
+    <body class="bg-dark">
+
+        <!-- LOGO -->
+        <div class="container-fluid bg-secondary" style="padding:20px">
+            <div class="row">
+                <a class="nav-link" href="home.html"><img src="images/restaurant.svg" style="width:35px;height:35px;"/></a>
+                <div class="col-sm-10" style="padding-left: 0;">
+                    <img src="images/logo.png" style="width:200px;"/>
+                </div>
+                <div class="col-sm-1" style="padding:18px">
+                    <a href="./carrinho"><img src="images/carrinho.png" style="height:35px"/></a> 
+                </div>
+            </div>
+        </div>
+
+        <!-- CAROUSEL -->
+        <div id="carouseldemo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#carouseldemo" data-slide-to="0" class="active"></li>
+                <li data-target="#carouseldemo" data-slide-to="1"></li>
+                <li data-target="#carouseldemo" data-slide-to="2"></li>
+                <li data-target="#carouseldemo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel1.png" style="width:100%"/>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel2.png" style="width:100%"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel3.png" style="width:100%"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel4.png" style="width:100%"/>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouseldemo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouseldemo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- MENU -->
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="images/mushroom.png" style="width:40px"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNabvar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNabvar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="restaurant.html">O nosso restaurante</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Os nossos serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Os nossos produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="satisfaction.html">A sua satisfação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacts.html">Contacte-nos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- BODY -->
+        <div class="container">
+            <h1 class="display-4">O nosso restaurante</h1>
+        </div>
+        <p>&nbsp;</p>
+        <!-- Footer -->
+        <div class="container-fluid bg-secondary text-white" style="padding:50px">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h4 class="text-white" style="padding-bottom:20px">Mapa do site</h4>
+                    <a class="text-white" href="#"><p style="padding-bottom:20px">O nosso Restaurante</p></a>
+                    <a class="text-white" href="#"><p style="padding-bottom:20px">Os nossos Serviços</p></a>
+                    <a class="text-white" href="#"><p style="padding-bottom:50px">A sua Satistação</p></a>
+                </div>
+                <div class="col-sm-3 text-white">
+                    <h4 class="text-white" style="padding-bottom:20px">Horário de Funcionamento</h4>
+                    <p><strong>Terça-feira a Sábado</strong></p>
+                    <p>Almoço: 11:00-15:00</p>
+                    <p>Jantar: 19:00-00:00</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-white" style="padding-bottom:20px">Subscreva a nossa newsletter</h4>
+                    <div class="row">
+                        <div class="col-8">
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Introduza o seu email">
+                                </div>
+                                <button type="submit" class="btn btn-success">Subscrever</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-white" style="padding-bottom:20px">Os nossos contactos</h4>
+                    <div class="row">
+                        <div class="col-1">
+                            <p><img src="images/home.svg"><br/>&nbsp;</p>
+                            <p><img src="images/mobile.svg"></p>
+                            <p><img src="images/email.svg"></p>
+                        </div>
+                        <div class="col-11">
+                            <p>Largo do Cisnes, nº1<br/>
+                            1000-100 Lisboa</p>
+                            <p>211 234 567</p>
+                            <p>geral@mushroom.pt</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Back2Top Button -->
+        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    </body>
+</html>
+
